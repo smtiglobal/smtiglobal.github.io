@@ -1,2 +1,2 @@
-# smtiglobal.github.io
+# smtiglobal
 Samsusan Multimedia &amp; Technology Institute Global
