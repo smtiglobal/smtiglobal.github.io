@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Institute Information test page</title>
+</head>
+<body>
+    <table border="1" id="instituteTable">
+        <tr>
+            <th>Property</th>
+            <th>Value</th>
+        </tr>
+    </table>
+
+    <script>
+        const institute = { 
+            name: "Samsusan Multimedia & Technology Institute (SMTI)",
+            address: "Ambedkar Nagar, अंबेडकर नगर, गंगटा, Gangta, Godda, Jharkhand 814133",
+            district: "Godda",
+            phone: "9671960792",
+            whatsappno: "9671960792",
+            whatsappmsg: "Hi, I contacted you through your website.",
+            email: "smtigodda@gamil.com"
+        };
+
+        // Function to create a table row with property and value
+        function createTableRow(property, value) {
+            const tableRow = document.createElement('tr');
+
+            const propertyCell = document.createElement('td');
+            propertyCell.innerText = property;
+            tableRow.appendChild(propertyCell);
+
+            const valueCell = document.createElement('td');
+            valueCell.innerText = value;
+            tableRow.appendChild(valueCell);
+
+            return tableRow;
+        }
+
+        // Get the table element
+        const table = document.getElementById('instituteTable');
+
+        // Loop through the properties of the institute object and create rows for each property
+        for (const property in institute) {
+            const value = institute[property];
+            const tableRow = createTableRow(property, value);
+            table.appendChild(tableRow);
+        }
+    </script>
+</body>
+</html>
