@@ -202,7 +202,7 @@ const course_307 = {
     course_title       :  "Wordpress",
     course_sub_title   : "Duration: 3 Months",
     badge_class : design_badge_class_bg, //dont-change
-    course_code : "306",
+    course_code : "307",
     source_page : "305-Course.html",
     image_path : default_image_location,                             //dont-change
     course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
@@ -219,6 +219,7 @@ addNewCourse(course_307);
 
 /*
 ------------------------------------------{ MUSIC }----------------------------------------------------
+    Course Code : 400
     Course Topics : Music
     Total Courses : 2
     Tab Position : Fourth
@@ -263,3 +264,40 @@ const course_403 = {
 addNewCourse(course_401);
 addNewCourse(course_402);
 addNewCourse(course_403);
+/*
+------------------------------------------{ MUSIC }----------------------------------------------------
+    Course Code   : 500
+    Course Topics : Music
+    Total Courses : 2
+    Tab Position : Fourth
+*/
+const multimedia_element_id =  "id_multimedia_course";                              //dont-change
+const multimedia_badge_class_bg = "badge bg-advertising rounded-pill ms-auto";      //dont-change
+
+const course_501 = {
+    element_id : music_element_id,                           //dont-change
+    course_title :  "Learn Guitar",
+    course_sub_title : "Duration: 3 Months",
+    badge_class : music_badge_class_bg, //dont-change
+    course_code : "401",
+    source_page : "basic-computer-course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "undraw_Compose_music_re_wpiw.png"
+    
+};
+const course_502 = {
+    element_id : music_element_id,                           //dont-change
+    course_title :  "Learn Piano",
+    course_sub_title : "Duration: 12 Months",
+    badge_class : music_badge_class_bg, //dont-change
+    course_code : "402",
+    source_page : "basic-computer-course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "undraw_happy_music_g6wc.png"
+    
+};
+
+
+addNewCourse(course_501);
+addNewCourse(course_502);
+// addNewCourse(course_403);

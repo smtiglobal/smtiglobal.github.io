@@ -35,7 +35,7 @@ const institute = {
     phone       : "9671960792",
     whatsappno  : "9671960792",
     whatsappmsg : "Hi, I contacted you Through your website.",
-    email       : "smtigodda@gamil.com"
+    email       : "smtigodda@gmail.com"
 };
 const thescript = {
     author  : "SanjeevStephanMurmu",
