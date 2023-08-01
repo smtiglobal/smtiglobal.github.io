@@ -66,22 +66,22 @@ const course_103 = {
     course_img_cover : "undraw_viral_tweet_gndb.png"
     
 };
-const course_104 = {
-    element_id : computer_element_id,                        //dont-change
-    course_title :  "Computer Pro",
-    course_sub_title : "Duration: 12 Months",
-    badge_class : computer_badge_class_bg ,                  //dont-change
-    course_code : "104",
-    source_page : "104-Course.html",
-    image_path : default_image_location,                     //dont-change
-    course_img_cover : "undraw_viral_tweet_gndb.png"
+// const course_104 = {
+//     element_id : computer_element_id,                        //dont-change
+//     course_title :  "Computer Pro",
+//     course_sub_title : "Duration: 12 Months",
+//     badge_class : computer_badge_class_bg ,                  //dont-change
+//     course_code : "104",
+//     source_page : "104-Course.html",
+//     image_path : default_image_location,                     //dont-change
+//     course_img_cover : "undraw_viral_tweet_gndb.png"
     
-};
+// };
 
 addNewCourse(course_101);
 addNewCourse(course_102);
 addNewCourse(course_103);
-addNewCourse(course_104);
+// addNewCourse(course_104);
 
 /*
 ------------------------------------------{ CODING }----------------------------------------------------
