@@ -27,10 +27,10 @@ const privacy = {
     showauthor  : "yes",
     showcontact : "yes"
 };
-
+//Ambedkar Nagar, अंबेडकर नगर, गंगटा, Gangta, Godda, Jharkhand 814133 
 const institute = { 
     name        : "Samsusan Multimedia & Technology Institute (SMTI)",
-    address     : "Ambedkar Nagar, अंबेडकर नगर, गंगटा, Gangta, Godda, Jharkhand 814133",
+    address     : "Gangta Rd, Khurd, Jharkhand 814133",
     district    : "Godda",
     phone       : "9671960792",
     whatsappno  : "9671960792",
