@@ -50,7 +50,7 @@ const course_102 = {
     course_sub_title : "Duration: 9 Months",
     badge_class : computer_badge_class_bg,                   //dont-change
     course_code : "102",
-    source_page : "dca-course.html",
+    source_page : "102-Course.html",
     image_path : default_image_location,                    //dont-change
     course_img_cover : "undraw_Group_video_re_btu7.png"
     
