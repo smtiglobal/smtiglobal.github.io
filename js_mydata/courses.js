@@ -46,8 +46,8 @@ const course_101 = {
 };
 const course_102 = {
     element_id : computer_element_id,                        //dont-change
-    course_title :  "Computer Intermediate",
-    course_sub_title : "Duration: 9 Months",
+    course_title :  "DCA ",
+    course_sub_title : "Duration: 12 Months",
     badge_class : computer_badge_class_bg,                   //dont-change
     course_code : "102",
     source_page : "102-Course.html",
@@ -57,15 +57,16 @@ const course_102 = {
 };
 const course_103 = {
     element_id : computer_element_id,                        //dont-change
-    course_title :  "Computer Advanced",
+    course_title :  "Advance DCA",
     course_sub_title : "Duration: 12 Months",
     badge_class : computer_badge_class_bg ,                  //dont-change
     course_code : "103",
-    source_page : "basic-computer-course.html",
+    source_page : "103-Course.html",
     image_path : default_image_location,                     //dont-change
     course_img_cover : "undraw_viral_tweet_gndb.png"
     
 };
+
 // const course_104 = {
 //     element_id : computer_element_id,                        //dont-change
 //     course_title :  "Computer Pro",
@@ -106,11 +107,11 @@ const course_201 = {
 };
 const course_202 = {
     element_id   : coding_element_id,                         //dont-change
-    course_title :  "Pro Coder",
-    course_sub_title : "Duration: 6 Months",
+    course_title :  "Web Development",
+    course_sub_title : "Duration: 6 Months <br/><small style='color:lightgrey'>Coming Soon</small>",
     badge_class : coding_badge_class_bg, //dont-change
     course_code : "202",
-    source_page : "basic-computer-course.html",
+    source_page : "202-Course.html",
     image_path : default_image_location,                     //dont-change
     course_img_cover : "undraw_Educator_re_ju47.png"
     
@@ -131,33 +132,78 @@ const design_badge_class_bg = "badge bg-design rounded-pill ms-auto";      //don
 
 const course_301 = {
     element_id         :  design_element_id,               //dont-change
-    course_title       :  "Web Design",
+    course_title       :  "DTP (Desktop Publishing  ",
     course_sub_title   : "Duration: 12 Months",
     badge_class : design_badge_class_bg, //dont-change
-    course_code : "301",
-    source_page : "basic-computer-course.html",
+    course_code : "304",
+    source_page : "304-Course.html",
     image_path : default_image_location,                             //dont-change
-    course_img_cover : "undraw_Remote_design_team_re_urdx.png"
+    course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
     
 };
 const course_302 = {
     element_id         :  design_element_id,               //dont-change
-    course_title       :  "Graphic Design",
-    course_sub_title   : "Duration: 12 Months",
+    course_title       :  "Web Design",
+    course_sub_title   :  "Duration: 3 Months <br> Available",
     badge_class : design_badge_class_bg, //dont-change
-    course_code : "302",
-    source_page : "basic-computer-course.html",
+    course_code : "301 ",
+    source_page : "301-Course.html",
     image_path : default_image_location,                             //dont-change
-    course_img_cover : "undraw_Redesign_feedback_re_jvm0.png"
+    course_img_cover : "undraw_Remote_design_team_re_urdx.png"
     
 };
 const course_303 = {
     element_id         :  design_element_id,               //dont-change
+    course_title       :  "Graphic Design",
+    course_sub_title   : "Duration: 6 Months",
+    badge_class : design_badge_class_bg, //dont-change
+    course_code : "302",
+    source_page : "302-Course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "undraw_Redesign_feedback_re_jvm0.png"
+    
+};
+const course_304 = {
+    element_id         :  design_element_id,               //dont-change
     course_title       :  "Logo Design",
-    course_sub_title   : "Duration: 12 Months",
+    course_sub_title   : "Duration: 3 Months",
     badge_class : design_badge_class_bg, //dont-change
     course_code : "303",
-    source_page : "basic-computer-course.html",
+    source_page : "303-Course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
+    
+};
+
+const course_305 = {
+    element_id         :  design_element_id,               //dont-change
+    course_title       :  "Corel Draw",
+    course_sub_title   : "Duration: 3 Months",
+    badge_class : design_badge_class_bg, //dont-change
+    course_code : "304",
+    source_page : "305-Course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
+    
+};
+const course_306 = {
+    element_id         :  design_element_id,               //dont-change
+    course_title       :  "Photoshop",
+    course_sub_title   : "Duration: 3 Months",
+    badge_class : design_badge_class_bg, //dont-change
+    course_code : "306",
+    source_page : "305-Course.html",
+    image_path : default_image_location,                             //dont-change
+    course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
+    
+};
+const course_307 = {
+    element_id         :  design_element_id,               //dont-change
+    course_title       :  "Wordpress",
+    course_sub_title   : "Duration: 3 Months",
+    badge_class : design_badge_class_bg, //dont-change
+    course_code : "306",
+    source_page : "305-Course.html",
     image_path : default_image_location,                             //dont-change
     course_img_cover : "colleagues-working-cozy-office-medium-shot.png"
     
@@ -166,6 +212,10 @@ const course_303 = {
 addNewCourse(course_301);
 addNewCourse(course_302);
 addNewCourse(course_303);
+addNewCourse(course_304);
+addNewCourse(course_305);
+addNewCourse(course_306);
+addNewCourse(course_307);
 
 /*
 ------------------------------------------{ MUSIC }----------------------------------------------------
