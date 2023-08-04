@@ -1,4 +1,4 @@
-# smtiglobal
+# SMTI Global
 Samsusan Multimedia &amp; Technology Institute Global
 
 ```
