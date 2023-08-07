@@ -23,7 +23,7 @@ const course_details = {
     Project_Work       : "20 Marks",
     Practical          : "1 Hour",
     Final_Semester_Examination     : "20",
-    Theory             : "Computer Fundamentals & MS office"
+    Theory             : "Computer Fundamentals & Ms office"
 };
 /*
     Note : Below Variables List 
